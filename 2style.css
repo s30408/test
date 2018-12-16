@@ -47,7 +47,7 @@ section:nth-child(5) { background-image:url(조달호.png); }
 article { position:absolute; top:46%; left:300px; z-index:11;}
 article p { font-family:righteous; font-size:50px; letter-spacing:2px; line-height:1;/* text-shadow:1px 1px 0px #222;*/}
 article span { font-size:20px; }
-section:nth-child(1) p { color:#d4164c;}
+section:nth-child(1) p { color:#d4164c; background-color:#00FEFE; opacity: 0.8;}
 section:nth-child(1) span { color:#d4164c; background-color:#00FEFE; opacity: 0.8;}
 section:nth-child(2) p { color:#000;}
 section:nth-child(2) span { color:#fff; background-color:#ff9800; opacity: 0.8}
