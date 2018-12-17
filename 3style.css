@@ -83,7 +83,7 @@ section>div>p>em>a>i:hover { transform:scale(1.2); opacity:1;}
 
 /* box3 */
 .box3>p {	width:25%;height:25%; float:left;}
-.box3>p:nth-child(1) { width:50%;height:200%; background:#fff; background:url(키-묘.mp4) no-repeat center top; background-size:cover;}
+.box3>p:nth-child(1) { width:50%;height:100%; background:#fff; background:url(키-묘.mp4) no-repeat center top; background-size:cover;}
 .box3>p:nth-child(2) { background:#555;}
 .box3>p:nth-child(3) { background:url(k2.jpg) no-repeat center center; background-size:cover;}
 .box3>p:nth-child(4) { width:50%; background:#222;}
