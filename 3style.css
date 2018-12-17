@@ -53,40 +53,40 @@ section>div>p>em>a>i:hover { transform:scale(1.2); opacity:1;}
 /* box1 */
 .box1>p {	height:25%;	float:left;	text-align:center;	position:relative;}
 .box1>p:nth-child(1) { width:50%; background-color:#333;}
-.box1>p:nth-child(2) { width:25%; background:#ccc; background:url(m1.jpg) no-repeat right center; background-size:cover;}
+.box1>p:nth-child(2) { width:25%; background:#ccc;  no-repeat right center; background-size:cover;}
 .box1>p:nth-child(3) { width:25%; background:#444;	}
 .box1>p:nth-child(3) ul { position:absolute; top:50%;}
-.box1>p:nth-child(4) { width:50%;height:50%;background:url(m2.jpg) no-repeat center top; background-size:cover; float:right}
-.box1>p:nth-child(5) { width:25%;background:url(m3.jpg) no-repeat left center; background-color:#fff; background-size:contain; float:right}
+.box1>p:nth-child(4) { width:50%;height:50%; no-repeat center top; background-size:cover; float:right}
+.box1>p:nth-child(5) { width:25%; no-repeat left center; background-color:#fff; background-size:contain; float:right}
 .box1>p:nth-child(6) { width:25%; background:#888; float:right;}
 .box1>p:nth-child(7) { width:25%; background:#444; float:right;}
-.box1>p:nth-child(8) { width:25%; background:url(m4.jpg) no-repeat center center; background-size:cover; float:right;}
+.box1>p:nth-child(8) { width:25%;  no-repeat center center; background-size:cover; float:right;}
 .box1>p:nth-child(9) { width:25%; background:#444;}
-.box1>p:nth-child(10) { width:50%; background:url(m5.jpg) no-repeat right center; background-size:cover;}
+.box1>p:nth-child(10) { width:50%;  no-repeat right center; background-size:cover;}
 .box1>p:nth-child(11) { width:25%;	background:#222;}
 
 
 /* box2 */
 .box2>p {text-align:center; height:25%; float:left;}
 .box2>p:nth-child(1) { width:25%; background:#444;}
-.box2>p:nth-child(2) { width:25%; background:url(w1.jpg) no-repeat center bottom; background-color:#fff; background-size:contain;}
+.box2>p:nth-child(2) { width:25%;  no-repeat center bottom; background-color:#fff; background-size:contain;}
 .box2>p:nth-child(3) { width:50%; background:#222;}
-.box2>p:nth-child(4) { width:25%; height:49.9%; background:url(w2.jpg) no-repeat right top; background-color:#fff;	background-size:cover;}
-.box2>p:nth-child(5) { width:50%; height:49.9%; background:#fff;	background:url(w3.jpg) no-repeat center center;	background-size:cover;}
-.box2>p:nth-child(6) { width:25%; background:url(w4.jpg) no-repeat center center;	background-color:#fff;	background-size:contain;}
+.box2>p:nth-child(4) { width:25%; height:49.9%;  no-repeat right top; background-color:#fff;	background-size:cover;}
+.box2>p:nth-child(5) { width:50%; height:49.9%; background:#fff;	 no-repeat center center;	background-size:cover;}
+.box2>p:nth-child(6) { width:25%;  no-repeat center center;	background-color:#fff;	background-size:contain;}
 .box2>p:nth-child(7) { width:25%; background:#555;}
-.box2>p:nth-child(8) { width:25%; background:#fff;	background:url(w5.jpg) no-repeat center center; background-size:cover;}
+.box2>p:nth-child(8) { width:25%; background:#fff;	 no-repeat center center; background-size:cover;}
 .box2>p:nth-child(9) { width:25%; background:#555;}
-.box2>p:nth-child(10) { width:25%;	background:url(w6.jpg) no-repeat center top; background-size:cover;}
-.box2>p:nth-child(11) { width:25%;	background:#fff;	background:url(w7.jpg) no-repeat center center; background-size:cover;}
+.box2>p:nth-child(10) { width:25%;	 no-repeat center top; background-size:cover;}
+.box2>p:nth-child(11) { width:25%;	background:#fff;	 no-repeat center center; background-size:cover;}
 
 
 /* box3 */
 .box3>p {	width:25%;height:25%; float:left;}
 .box3>p:nth-child(1) { width:50%;height:100%; background:#fff; background:url(키-묘.mp4) no-repeat center top; background-size:cover;}
 .box3>p:nth-child(2) { background:#555;}
-.box3>p:nth-child(3) { background:url(k2.jpg) no-repeat center center; background-size:cover;}
+.box3>p:nth-child(3) { background: no-repeat center center; background-size:cover;}
 .box3>p:nth-child(4) { width:50%; background:#222;}
-.box3>p:nth-child(5) { height:50%; background:url(k3.jpg) no-repeat center top; background-size:cover;}
+.box3>p:nth-child(5) { height:50%;  no-repeat center top; background-size:cover;}
 .box3>p:nth-child(6) { background:#777;}
-.box3>p:nth-child(7) { background:url(k4.jpg) no-repeat center center;	background-size:cover;}
+.box3>p:nth-child(7) { background: no-repeat center center;	background-size:cover;}
