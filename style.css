@@ -36,12 +36,6 @@ header { width:700px; height:100%; position:fixed; top:0px; left:-420px; backgro
 #gnb>li.on ul { opacity:0.8; left:205px; top:-10px; }
 #gnb li.on ul a { background:#444; opacity:0.7; }
 
-/* sns 버튼 모음*/
-#sns { position:fixed; top:60px; right:50px;}
-#sns li { float:left; margin-right:30px;}
-#sns .fa { font-size:25px; color:#b9fb05; opacity:0.5;	transform:scale(1); 	transition:all 0.5s;}
-#sns .fa:hover { opacity:1; transform:scale(1.4);}
-
 /* 텍스트 박스 */
 .txtBox { width:340px; height:280px; position:fixed; top:200px; right:70px; }
 .txt { position:absolute; top:200px; right:0px; font-size:34px; font-family:play; color:#bbb; letter-spacing:-2px;}
@@ -91,9 +85,7 @@ header { width:700px; height:100%; position:fixed; top:0px; left:-420px; backgro
 
 	/* header 컨텐츠 */
 	header h1 { top:20px; width:140px; margin-left:-70px;}
-	header {display: none;}
-	#gnb { width:250px; top:140px; right:50%; margin-right:-125px;}
-	#gnb a { width:100%; background:#000; box-sizing:border-box; margin:8px 0px; border-radius:10px; opacity:0.5; color:#fff;}
-	#gnb a:hover { opacity:1; transform:scale(1.1);}
 
+	#gnb {display: none;}
+	#side {display: none;}
 }
