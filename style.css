@@ -34,7 +34,7 @@ header { width:700px; height:100%; position:fixed; top:0px; left:-420px; backgro
 #gnb ul a { display:block; width:150px; height:40px; background:#222; border-bottom:1px solid #b9fb05; font:bold 16px/2.5 arial; color:#fff; box-sizing:border-box; padding-left:50px; margin-bottom:3px; transition:all 0.5s; }
 #gnb ul a:hover { background:#b9fb05; color:#333; }
 #gnb>li.on ul { opacity:0.8; left:205px; top:-10px; }
-#gnb li.on ul a { background:#444; opacity:0.7; } 
+#gnb li.on ul a { background:#444; opacity:0.7; }
 
 /* sns 버튼 모음*/
 #sns { position:fixed; top:60px; right:50px;}
@@ -63,11 +63,11 @@ header { width:700px; height:100%; position:fixed; top:0px; left:-420px; backgro
 #side .con p:nth-child(1) { bottom:270px; transform: translateX(200px); transition:all  0.4s;}
 #side .con p:nth-child(2) { bottom:160px; transform: translateX(200px); transition:all  0.8s;}
 #side .con p:nth-child(3) { bottom:50px; transform: translateX(200px); transition:all  1.2s;}
-#side:hover .con p { transform:translateX(0px);}	
+#side:hover .con p { transform:translateX(0px);}
 
 /* 자동롤링 버튼*/
 #side .btnContents { width:150px; height:50px; position:absolute;  bottom:40px; left:100px; color:#b9fb05;	transform:skewX(40deg); }
-#side:hover .btnContents { left:700px;}	
+#side:hover .btnContents { left:700px;}
 .btnContents i { font-size:60px; position:absolute; bottom:0px; right:0px; opacity:1;}
 .btnContents i:nth-child(1) { animation:ani linear 1.5s 0s infinite;}
 .btnContents i:nth-child(2) { animation:ani linear 1.5s 0.5s infinite;}
@@ -79,10 +79,21 @@ header { width:700px; height:100%; position:fixed; top:0px; left:-420px; backgro
 }
 
 
+/*서동찬이 추가*/
+@media screen and (max-width:479px){
 
+	/*레이아웃*/
+	header { position:fixed; width:100%; height:40px; background-color:transparent; z-index:5;}
+	nav { display:none;}
+	section { width:100%; margin-left:0px; z-index:4;}
+	article { display:none;}
+	article:nth-child(1) { display:block; position:fixed; width:100%; height:100%;}
 
+	/* header 컨텐츠 */
+	header h1 { top:20px; width:140px; margin-left:-70px;}
+	header {display: none;}
+	#gnb { width:250px; top:140px; right:50%; margin-right:-125px;}
+	#gnb a { width:100%; background:#000; box-sizing:border-box; margin:8px 0px; border-radius:10px; opacity:0.5; color:#fff;}
+	#gnb a:hover { opacity:1; transform:scale(1.1);}
 
-
-
-
-
+}
