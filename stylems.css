@@ -52,16 +52,23 @@ footer ul li {	float:left;	margin-right:40px;}
 footer span {position:absolute; 	right:50px; bottom:0px;}
 
 /* 모바일 기기 전용 웹 */
-@media screen and (max-width:479px){
+@media screen and (max-width: 479px){
 
   /* article 영역 */
   article {display:none;}
 
   /* 로고 */
-  .wrap h1 { position:fixed; width:300px; top:6%; left:10%; right:10%;	text-align:center;	line-height:0.8;}
+  .wrap h1 { position:fixed; width:300px; top:6%; left:12%; right:10%;	text-align:center;	line-height:0.8;}
   .wrap h1 strong {	font:bold 30px/1.1 verdana; color:#333;}
   .wrap h1 span {font:bold 17px/1.6 arial; color:#444;letter-spacing:5px;}
 
   /* 슬로건 영역*/
-  .txt {	position:fixed; top:85%; left:auto; right:auto;	font:30px/0.8 Raleway; color:#111;	letter-spacing:0px;}
+  .txt {	position:fixed; top:85%; left:19%; right:auto;	font:30px/0.8 Raleway; color:#111;	letter-spacing:0px;}
   .txt span {font-size:30px; color:#888;}
+
+  /* footer */
+  footer {display:none;}
+
+
+  /* 배경이미지 설정*/
+  .wrap {	position:fixed; width:100%; height:100%; min-width:1024px; min-height:768px; 	background:url(bg.jpg) no-repeat center bottom; background-size:cover;}
