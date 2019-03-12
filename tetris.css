@@ -1,0 +1,23 @@
+﻿#stage {position: relative; width: 250px; height: 500px; border: 3px solid; background: #333}
+.block {width: 23px; height:23px; border: 1px solid #000; float: left;}
+.none {background: #333}
+#handle {position: absolute; top:0; left:0}
+.whiteLine {margin:1px; border:none}
+.type1 {background: yellow}
+.type2 {background: purple}
+.type3 {background: skyblue}
+.type4 {background: orange}
+.type5 {background: blue}
+.type6 {background: green}
+.type7 {background: red}
+.type8 {background: white}
+.type9 {background: cyan}
+.type10 {background: gray}
+.type11 {background: pink}
+.type12 {background: brown}
+.type13 {background: fuchsia}
+.type14 {background: beige}
+.type15 {background: magenta}
+.type16 {background: silver}
+.type17 {background: lavender}
+.type18 {background: aliceblue}
