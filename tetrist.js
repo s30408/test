@@ -38,7 +38,7 @@ var handle = {
     "width" : 0,
     "height" : 0,
     "rotation" : 0,
-    "speed" : 1000,
+    "speed" : 100,
     "init" : function(){
         this.top = 0;
         this.left = 0;

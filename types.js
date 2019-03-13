@@ -180,3 +180,30 @@ types.type18 = {
         			 [1,1,0],
         			 [1,1,0]]
 };
+
+types.type19 = {
+	"name" : "type19",
+	"width" : 3,
+	"height" : 3,
+	"maxRotation" : 4,
+	"shape" : 	[[1,1,0],
+        			 [1,0,0],
+        			 [1,1,0]]
+};
+
+types.type20 = {
+	"name" : "type20",
+	"width" : 2,
+	"height" : 2,
+	"maxRotation" : 4,
+	"shape" : 	[[1,0],
+        			 [1,1]]
+};
+
+types.type21 = {
+	"name" : "type21",
+	"width" : 1,
+	"height" : 1,
+	"maxRotation" : 1,
+	"shape" : 	[[1]]
+};
