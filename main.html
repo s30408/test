@@ -2,92 +2,71 @@
 <html>
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-	<title>최박서의 기묘한 페이지</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="stylems.css" />
-	<script type="text/javascript" src="jquery-2.2.4.min.js"></script>
+	<title> 최박서의 으썸한 페이지 </title>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="prefixfree.min.js"></script>
-	<script type="text/javascript" src="customm.js"></script>
+	<script type="text/javascript" src="custom.js"></script>
 </head>
 <body>
 
+	<!-- 배경이미지 -->
+	<div class="bg"></div>
 
-	<div class="wrap">
+	<!-- 로고 -->
+	<h1><img src="logo.png" /></h1>
 
-		<!-- 로고 영역 -->
-		<h1>
-			<strong>조원고등학교</strong>	<br />
-			<span>Career Project</span>
-		</h1>
-
-		<!-- 슬로건 영역 -->
-		<p class="txt">
-			Project & <span>Creative</span>
-		</p>
-
-		<!-- section 영역 -->
-		<section class="contents">
+	<!-- 주 메뉴 -->
+	<ul class="gnb">
+		<li><a href="https://s30408.github.io/test/main.html">Home</a></li>
+		<li><a href="tetris.html">Game</a></li>
+		<li><a href="https://s30408.github.io/main/main.html">Old ver.</a></li>
+		<li><a href="https://s30408.github.io/main/">Oldest ver.</a></li>
+	</ul>
 
 
-			<!-- article 영역 -->
-			<article id="gnb">
-				<h2>서동찬의<br />죠죠서기 교실</h2></a>
-				<a href="index.html">
-				<video loop="loop" preload="auto" muted="muted">
-					<source src="jojo.mp4" type="video/mp4" />
-				</video>
-				</a>
-				<div></div>
-				<h3>JoJo pose</h3>
-				<p>
-					죠죠의 기묘한 모험에 나오는<br /> 죠죠서기를<br /> 소개해주는 페이지.
-				</p>
-			</article>
+	<!-- 스크롤 네비게이션 -->
+	<ul class="scrollNavi">
+		<li class="on"><span></span><em> Choi</em></li>
+		<li><span></span><em> Park</em></li>
+		<li><span></span><em> Seo</em></li>
+	</ul>
 
-			<!-- article 영역 -->
-			<article id="gnb">
-				<h2>박성배의<br />조원고</h2>
-				<a href="https://s30408.github.io/main/%EC%84%B1%EB%B0%B0%EC%9E%90%EB%A6%AC.html">
-				<video loop="loop" preload="auto" muted="muted">
-					<source src="갓시덤불.mp4" type="video/mp4" />
-				</video>
-				</a>
-				<div></div>
-				<h3>Jowon <br />HighSchool</h3>
-				<p>
-					현재 최박서팀이 <br />다니는 학교인<br /> 조원고등학교를<br /> 소개해주는 페이지.
-				</p>
-			</article>
+	<!-- 박스 그룹 -->
+	<section>
 
-			<!-- article 영역 -->
-			<article id="gnb">
-				<h2>최동진의<br />어리바리한<br />공방</h2>
-				<a href="https://s30408.github.io/main/%EB%82%B4%EB%B3%B4%EA%B8%88%EC%9E%90%EB%A6%AC.html">
-				<video loop="loop" preload="auto" muted="muted">
-					<source src="밥로스.mp4" type="video/mp4" />
-				</video>
-				</a>
-				<div></div>
-				<h3>Workshop</h3>
-				<p>
-					본인이 그린 그림 등을<br /> 업로드하는 사이트<br />
-				</p>
-			</article>
+		<!-- 첫 번째 박스 -->
+		<article class="on">
+			<a href="https://s30408.github.io/main/%EB%82%B4%EB%B3%B4%EA%B8%88%EC%9E%90%EB%A6%AC.html"><img class="obj13" src="player1.png" /></a>
+			<p class="on">
+				<span>Work Shop</span><br />
+				<em> 이 사이트의 제작자 최동진이 <br />직접 그린 그림을 업로드하는 사이트</em>
+			</p>
+		</article>
 
-		</section>
+		<!-- 두 번째 박스 -->
+		<article>
+			<a><img class="obj21" src="pic21.png" /></a>
+			<a href="https://s30408.github.io/main/%EC%84%B1%EB%B0%B0%EC%9E%90%EB%A6%AC.html"><img class="obj22" src="player2.png" /></a>
+			<p>
+				<span>Jowon <br />HighSchool</span><br />
+				<em> 최박서팀이 재학중인 <br />조원고등학교를 소개하는 사이트</em>
+			</p>
+		</article>
 
-		<!-- footer -->
-		<footer>
-			<ul>
-				<li><a href="https://s30408.github.io/main/현준.html">조</a></li>
-				<li><a href="tetris.html">원</a></li>
-				<li><a href="bingo.html">고</a></li>
-			</ul>
-			<span>최박서의 기묘한 페이지</span>
-		</footer>
+		<!-- 세 번째 박스 -->
+		<article>
+			<a><img class="obj31" src="pic31.png" /></a>
+			<a href="https://s30408.github.io/test/index.html"><img class="obj32" src="player3.png" /></a>
+			<p>
+				<span>JoJo Pose</span><br />
+				<em> 죠죠러 서동찬이 가르쳐주는 <br />죠죠서기 </em>
+			</p>
+		</article>
+	</section>
 
-	</div>
 
 </body>
 </html>
