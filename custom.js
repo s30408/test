@@ -1,1 +1,40 @@
-﻿$(document).ready(function(){   var numAc = $("article").size(); var widSec = 200*numAc; var widTotal = widSec+600; $("section").width(widTotal); $("body").height(widSec); $("html,body").animate({"scrollTop":widSec},2000);   $(window).on("scroll",function(){ var scroll = $(this).scrollTop(); $("section").stop().animate({"left":-scroll},600); });   $("article h2").on("click",function(e){ e.preventDefault(); var index = $(this).parent().index(); var src = $(this).children("a").attr("href"); var posAc = 200*index; $("article").removeClass("on"); $(this).parent().addClass("on"); $("article p img").attr({"src":""}); $(this).siblings("p").children("img").attr({"src":src}); $("html,body").scrollTop(posAc); });   $("span").on("click",function(){ $("article").removeClass("on"); });   $("#navi li").on("click",function(){ var i = $(this).index(); var posNavi = 600*i; $("#navi li, article").removeClass(); $(this).addClass("on"); $("html,body").scrollTop(posNavi); });   });                
+﻿$(document).ready(function(){
+
+	//페이지 로딩 시 제일 상단으로 스크롤 이동
+	$("body,html").stop().animate({"scrollTop":0},1500,"swing");
+
+	$(window).on("scroll",function(){
+
+		//변수 scroll에 현재 화면을 스크롤한 거리의 수치를 저장
+		var scroll = $(this).scrollTop();
+
+		for(var i=0; i<5; i++){
+			//스크롤값과 박스의 z축 연동
+			$("section>article").eq(i).css({"transform":"translateZ("   + (-5000*i+scroll)   +  "px)"});
+			//특정 스크롤 구간에서 스크롤 네비게이션과 박스 활성화
+			if(scroll>=i*5000-2500&&scroll<(i+1)*5000-2500){
+				$(".scrollNavi li").removeClass();
+				$(".scrollNavi li").eq(i).addClass("on");
+				$("article").removeClass();
+				$("article").eq(i).addClass("on");
+			};
+		};
+
+	});
+
+
+	//스크롤 네비게이션 클릭 시 스크롤 이동
+	$(".scrollNavi li").on("click",function(){
+		var a = $(this).index();
+		$("body,html").stop().animate({"scrollTop":5000*a},1500,"swing");
+	});
+
+	//화면에서 마우스 무브 시 박스안의 콘텐츠 움직이기
+	$("body").on("mousemove",function(e){
+		var posX = e.pageX/100;
+		var posY = e.pageY/150;
+	
+	});
+
+
+});
