@@ -16,10 +16,7 @@ h1 { position:fixed; top:70px; left:90px; z-index:2;}
 h1 img { width:180px; }
 
 /*주 메뉴*/
-.gnb { position:fixed; top:50px; right:250px; z-index:2;}
-.gnb li { float:left; margin-left:50px;}
-.gnb li a { font-size:14px; font-weight:bold; color:#fff; transform:scale(1); opacity:0.5; transition:all 0.5s;}
-.gnb li a:hover { transform:scale(1.5); opacity:1;}
+
 
 /*sns 모음*/
 .sns { position:fixed; top:50px; right:50px; z-index:2; }
@@ -72,4 +69,52 @@ section>article:nth-child(3) p span { color:#b57de4;}
 .obj31 { bottom:15%; right:15%;}
 .obj32 {height: 530px; bottom:10%; left:13%;}
 section>article:nth-child(3) em {font-size: 25px;}
+
 /* 테스트용 */
+
+/* nav */
+nav { width:100%; height:50px; position:fixed; z-index:3; top:10%; margin-top:-25px; left: 25%; repeat 0 0; color: white; }
+
+/* nav 1depth */
+nav>ul  { width:1200px; height:50px; margin:0 auto; }
+nav>ul>li { color: white; width:200px; height:50px; float:left; text-align:center; box-sizing:border-box; position:relative; perspective:700px;}
+nav>ul>li>a { display:block; width:200px; height:50px; font: 12px/4 orbitron; color:#aaa; transition:all 0.4s;}
+nav>ul>li:hover>a { transform:translateY(-20px); opacity:0;}
+
+/* nav 2depth*/
+nav>ul>li>div { position:absolute; left:0px; top:-50px; width:200px; height:300px; repeat 0 0;
+   border:1px solid #000; box-sizing:border-box; opacity:0; transition:all 0.5s; padding:10px; background-color: black; }
+nav>ul>li:hover div { opacity:0.9; top:-100px; }
+nav>ul>li>div>h2 { position:absolute; left:0px; top:100px; width:100%; height:50px; text-align:center;
+  font:bold 12px/3.5 orbitron; color:#fff;}
+nav>ul>li>div>ul { width:100%; position:absolute; bottom:0px; left:0px; }
+nav>ul>li>div>ul>li>a { display:block; width:100%; height:37px; border-top:1px solid #111; color:#ddd;
+  text-align:center; font:15px/2.8 orbitron; color:#888; transition:all 0.4s; }
+nav>ul>li>div>ul>li>a:hover { background:#000; color:#fff;}
+
+
+
+@media screen and (max-width: 479px){
+
+header h1 { top: 20px; width: 140px; margin-left: -70px; }
+#gnb { width: 250px; top:140px; right: 50%; margin-right: -125px; }
+#gnb a {width: 100%; background: #000; box-sizing: border-box; margin: 8px 0px; border-radius: 10px; opacity: 0.5; color: #fff;	}
+#gnb a:hover {opacity: 1; transform: scale(1.1);}
+article {display: none;}
+#gnb1 {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
