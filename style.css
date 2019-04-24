@@ -96,14 +96,18 @@ nav>ul>li>div>ul>li>a:hover { background:#000; color:#fff;}
 
 @media screen and (max-width: 479px){
 
-header h1 { top: 20px; width: 140px; margin-left: -70px; }
+header h1 { top: 10px; width: 140px; margin-left: 0px auto; }
+h1 { position:fixed; top:30px; left:110px; z-index:2;}
+h1 img { width:180px; }
 #gnb { width: 250px; top:140px; right: 50%; margin-right: -125px; }
 #gnb a {width: 100%; background: #000; box-sizing: border-box; margin: 8px 0px; border-radius: 10px; opacity: 0.5; color: #fff;	}
 #gnb a:hover {opacity: 1; transform: scale(1.1);}
 article {display: none;}
 #gnb1 {display: none;}
+#gnb {display: none;}
 
-
+nav ul {width: 250px; top:140px; right: 50%; margin-right: -125px;}
+nav a {width: 100%; background: #000; box-sizing: border-box; margin: 8px 0px; border-radius: 10px; opacity: 0.5; color: #fff;}
 
 
 
